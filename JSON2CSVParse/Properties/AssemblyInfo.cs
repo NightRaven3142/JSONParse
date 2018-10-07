@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VitalityJSONParse")]
+[assembly: AssemblyTitle("JSON2CSVParse")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VitalityJSONParse")]
+[assembly: AssemblyProduct("JSON2CSVParse")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("82e473b3-3e03-47b3-88c9-035f0230b0eb")]
+[assembly: Guid("2478c57f-3bde-4a81-95b7-0f6dcc7bc9d7")]
 
 // Version information for an assembly consists of the following four values:
 //

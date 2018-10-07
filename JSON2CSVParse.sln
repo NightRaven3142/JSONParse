@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitalityJSONParse", "VitalityJSONParse\VitalityJSONParse.csproj", "{82E473B3-3E03-47B3-88C9-035F0230B0EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON2CSVParse", "JSON2CSVParse\JSON2CSVParse.csproj", "{2478C57F-3BDE-4A81-95B7-0F6DCC7BC9D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82E473B3-3E03-47B3-88C9-035F0230B0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82E473B3-3E03-47B3-88C9-035F0230B0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82E473B3-3E03-47B3-88C9-035F0230B0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82E473B3-3E03-47B3-88C9-035F0230B0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2478C57F-3BDE-4A81-95B7-0F6DCC7BC9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2478C57F-3BDE-4A81-95B7-0F6DCC7BC9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2478C57F-3BDE-4A81-95B7-0F6DCC7BC9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2478C57F-3BDE-4A81-95B7-0F6DCC7BC9D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6B37EF7B-1D18-4B33-B6B4-25E198301227}
+		SolutionGuid = {74D63798-75CA-4294-A1BB-B225F21168A7}
 	EndGlobalSection
 EndGlobal

@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 using CsvHelper;
 
-namespace VitalityJSONParse
+namespace JSON2CSVParse
 {
     class Program
     {
         static void Main(string[] args)
         {
-            using(StreamReader r = new StreamReader("INSERTFILENAME.json"))
+            using (StreamReader r = new StreamReader("INSERTFILENAME.json"))
             {
                 string json = r.ReadToEnd();
                 RootObject items = JsonConvert.DeserializeObject<RootObject>(json);
@@ -23,7 +23,8 @@ namespace VitalityJSONParse
                 TextWriter textWriter = new StreamWriter(@"INSERTFILEPATH.csv", false, System.Text.Encoding.UTF8);
                 var csv = new CsvWriter(textWriter);
                 csv.WriteRecords(contents);
-                csv.WriteRecords(actions);
+                //Uncomment line below for actions to be written to CSV
+                //csv.WriteRecords(actions);
             }
 
             //using(StreamReader s = new StreamReader("INSERTFILENAME.json"))

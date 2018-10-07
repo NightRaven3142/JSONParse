@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82E473B3-3E03-47B3-88C9-035F0230B0EB}</ProjectGuid>
+    <ProjectGuid>{2478C57F-3BDE-4A81-95B7-0F6DCC7BC9D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>VitalityJSONParse</RootNamespace>
-    <AssemblyName>VitalityJSONParse</AssemblyName>
+    <RootNamespace>JSON2CSVParse</RootNamespace>
+    <AssemblyName>JSON2CSVParse</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
